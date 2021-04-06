@@ -9,7 +9,7 @@
 - Cloud : AWS-EC2
 
 ## Data flow
-![intro page2](https://github.com/Seungyeup/Project-StockPlatform/blob/master/imgs/%EC%A0%84%EA%B0%9C%EB%8F%84%201.png?raw=true)
+<img src="https://github.com/Seungyeup/Project-StockPlatform/blob/master/imgs/%EC%A0%84%EA%B0%9C%EB%8F%84%201.png?raw=true"  width="70%" height="70%">
 
 ## Screenshots
 ![intro page3](https://github.com/Seungyeup/Project-StockPlatform/blob/master/imgs/%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD3.png?raw=true)
@@ -25,4 +25,3 @@ If people like your project they’ll want to learn how they can use it. To do s
 A short snippet describing the license (MIT, Apache etc)
 
 MIT © [Yourname]()
-
