@@ -2,7 +2,11 @@
 증권API와 크롤링으로 얻은 주가 데이터를 유저의 투자전략에 따라 시뮬레이션 해 봄으로써 투자에 도움을 주는 플랫폼입니다. 
 
 ## Tech/framework used
-![intro page1](https://github.com/Seungyeup/Project-StockPlatform/blob/master/imgs/%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD2.png?raw=true)
+- Framework : Django3.0, Django-Rest-Framework
+- Language : python3.8(32/64), javascript
+- OS : Ubuntu 18.0.4
+- DB : MongoDB Atlas
+- Cloud : AWS-EC2
 
 ## Data flow
 ![intro page2](https://github.com/Seungyeup/Project-StockPlatform/blob/master/imgs/%EC%A0%84%EA%B0%9C%EB%8F%84%201.png?raw=true)
