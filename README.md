@@ -1,4 +1,4 @@
-## Investment Simulation Platform
+## Investment Simulation Platform (phase-1)
 증권API,크롤링으로 얻은 주가데이터를 투자전략에 따라 시뮬레이션 해 봄으로써 투자에 도움을 줍니다.
 
 ### Details
