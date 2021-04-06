@@ -7,10 +7,6 @@
 ## Data flow
 ![intro page2](https://github.com/Seungyeup/Project-StockPlatform/blob/master/imgs/%EC%A0%84%EA%B0%9C%EB%8F%84%201.png?raw=true)
 
-
-[![Build Status](https://travis-ci.org/akashnimare/foco.svg?branch=master)](https://travis-ci.org/akashnimare/foco)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/akashnimare/foco?branch=master&svg=true)](https://ci.appveyor.com/project/akashnimare/foco/branch/master)
- 
 ## Screenshots
 ![intro page3](https://github.com/Seungyeup/Project-StockPlatform/blob/master/imgs/%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD3.png?raw=true)
 
