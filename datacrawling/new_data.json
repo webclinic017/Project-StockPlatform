@@ -1,0 +1,52 @@
+{
+    "_id": {
+        "$oid": "5f3924e4af262030ed1277b5"
+    },
+    "id": 2,
+    "stret_name": "배당주 투자",
+    "stret_num": 2,
+    "writer_name_id": 2,
+    "stret_descript": "최소 시가 총액 : 천억원\r\n100,000,000,000\r\n\r\n매출액 대비 영업이익률 5%이상, ROE 4%이상, 시가 배당률 4% 이상, 주당 배당금 100~10,000원 \r\n\r\n시가배당률 높은 기업 + 꾸준히 성장할 수 있는 기업 선택 \r\n\r\n\r\n-1 ROE는 회사가 주주의 자금을 이용해 얼마만큼의 이익을 남겼는지를 보여주는 지표이다. \r\n이에 ‘이 회사는 내년, 내후년에도 꾸준한 실적을 낼 가능성이 높다.’는 뜻이 숨어 있다. \r\nROE가 높은 기업은 자사에 재투자할 밑천이 꾸준히 증가하기 때문이다.\r\n즉, 주주가 투자한 원금이 꾸준히 증가하기 때문에 장기투자에 유망하다.\r\n\r\n-2 그러나 ROE만 가지고는 회사가 영업활동으로 이익을 남겼는지, 그저 투자 차익으로 이익이 발생했는 지 알 수 없다.\r\n따라서 매출액 대비 영업이익률이 5% 이상이 되는 기업을 선택하도록 한다.  \r\n\r\n--> 매출액 대비 영업이익률, ROE를 통해 향후 성장성이 높을 기업을 선택하였다. \r\n\r\n-3 높은 시가 배당률은 주가에 일종의 안정 장치 역할을 해준다. 시가 배당률이 높으면 주가 하락 폭이 제한될 수 있기 때문이다. \r\n추가로 높은 배당 성향이 더해지면 배당일이 가까워올 수록 투자자가 몰려 주가가 더 떨어지지 않는다. \r\n혹 주가가 하락하더라도 실제 투자금액에 비해 받는 배당액이 높아진다.",
+    "investment": 100000000,
+    "ivm_dttm_s": {
+        "$date": "2020-01-01T11:53:15.000Z"
+    },
+    "ivm_dttm_e": {
+        "$date": "2020-08-16T11:53:16.000Z"
+    },
+    "max_stock_num": 4,
+    "u_market_cap": 1000000000,
+    "u_roe": 4,
+    "u_roa": null,
+    "u_salesPerProfit": null,
+    "u_salesPerMargin": 5,
+    "u_salesIncrease": null,
+    "u_marginIncrease": null,
+    "u_profitIncrease": null,
+    "u_debtRatio": 180,
+    "u_currentRatio": null,
+    "u_oaCashFlow": false,
+    "u_iaCashFlow": false,
+    "u_maCashFlow": false,
+    "u_eps_s": null,
+    "u_eps_e": null,
+    "u_bps_s": null,
+    "u_bps_e": null,
+    "u_cfps_s": null,
+    "u_cfps_e": null,
+    "u_sps_s": null,
+    "u_sps_e": null,
+    "u_dps_s": 100,
+    "u_dps_e": 10000,
+    "u_per_s": null,
+    "u_pbr_s": null,
+    "u_pcr_s": null,
+    "u_psr_s": null,
+    "u_marketDiviend_s": 4,
+    "u_marketDiviend_e": 100,
+    "purc_cond": -1,
+    "targ_price": 10,
+    "sell_price": -10,
+    "reval_trm": 2,
+    "stret_opened_inplat": true
+}

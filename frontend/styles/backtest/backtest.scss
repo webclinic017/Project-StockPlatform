@@ -1,0 +1,222 @@
+.backtest-contents {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  // flex-wrap: nowrap;
+  // align-items: stretch;
+
+  .result-section {
+    width: 65%;
+    height: calc(91vh - 55px);
+    // background: yellow;
+    display: flex;
+    flex-direction: column;
+
+    .result-firstLine-title {
+      height: 4vh;
+      font-size: 1.1rem;
+      color: white;
+      margin-bottom: 1vh;
+    }
+    .result-firstLine-detail {
+      height: 2vh;
+      font-size: 0.6em;
+      color: white;
+      margin-bottom: 2vh;
+    }
+    .result-firstLine {
+      width: calc(100% - 2vh);
+      height: 40%;
+      display: flex;
+      font-size: 0.8rem;
+      letter-spacing: 0.8px;
+
+      .result-box {
+        display: flex;
+        flex-direction: row;
+        // flex-wrap: nowrap;
+        width: 100%;
+        height: 100%;
+        // background: rgb(131, 98, 98);
+        // height: 82%;
+
+        .item-result-box {
+          width: 50%;
+          margin-right: 2vh;
+        }
+        .subGraph1 {
+          background-color: rgba(255, 255, 255, 0.05);
+          width: auto;
+          margin-right: 2vh;
+        }
+
+        .items,
+        .result {
+          height: 47%;
+          background-color: rgba(255, 255, 255, 0.05);
+          margin-bottom: 2vh;
+        }
+      }
+      .result-box:nth-child(2) {
+        margin-right: 2vh;
+      }
+    }
+    .result-secondLine {
+      width: calc(100% - 2vh);
+      height: 55%;
+      margin-top: 3vh;
+
+      .mainGraph {
+        width: 100%;
+        height: 300px;
+        // background-color: pink;
+        padding: 10px;
+        // background-color: rgba(255, 255, 255, 0);
+      }
+    }
+  }
+
+  .parameter-section {
+    width: 35%;
+    // height: calc(96vh - 55px);
+    height: calc(91vh - 55px);
+    display: flex;
+    flex-direction: column;
+
+    .parameter-title {
+      height: 4vh;
+      font-size: 1.1rem;
+      color: white;
+      // background: pink;
+      margin-bottom: 1vh;
+    }
+
+    .parameter-detail {
+      height: 2vh;
+      font-size: 0.6em;
+      color: white;
+      margin-bottom: 2vh;
+      padding: 0 10px 10px 0;
+      // background: pink;
+    }
+    .filterContainer {
+      color: white;
+      width: 98%;
+      height: 530px;
+      // background: red;
+    }
+  }
+}
+@media screen and (max-width: 1440px) {
+  .backtest-contents {
+    display: flex;
+    flex-direction: column;
+    // justify-content: flex-start;
+    // background: pink;
+
+    .parameter-section {
+      order: 1;
+      width: 100%;
+      height: 100%;
+      // background: blue;
+      display: flex;
+      flex-direction: column;
+
+      .parameter-title {
+        font-size: 1.2rem;
+      }
+      .parameter-detail {
+        font-size: 0.7rem;
+      }
+    }
+
+    .result-section {
+      margin-top: 100px;
+      order: 2;
+      width: 100%;
+
+      .result-firstLine-title {
+        font-size: 1.2rem;
+      }
+      .result-firstLine-detail {
+        font-size: 0.7rem;
+      }
+
+      .result-firstLine {
+        .result-box {
+          .item-result-box {
+            height: 255px;
+
+            .items {
+              height: 30%;
+              // background: pink;
+              padding: 10px 0;
+            }
+            .result {
+              height: 70%;
+              // background: pink;
+              padding: 10px 0;
+            }
+          }
+          .subGraph1 {
+            height: 310px;
+            margin-bottom: 20px;
+          }
+        }
+      }
+      .result-secondLine {
+        margin-top: 100px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .backtest-contents {
+    width: 100%;
+
+    .result-section {
+      width: 100%;
+      justify-content: center;
+
+      .result-firstLine {
+        width: 100%;
+
+        .result-box {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          .item-result-box {
+            width: 100%;
+
+            .items {
+              width: 130%;
+              height: auto;
+              // background: pink;
+              padding: 10px 0;
+            }
+            .result {
+              width: 100%;
+              height: auto;
+              padding: 10px 0;
+            }
+          }
+          .subGraph1 {
+            width: 100%;
+            height: 310px;
+            // background: pink;
+            display: block;
+          }
+        }
+      }
+      .result-secondLine {
+        // background: peru;
+        width: 100%;
+        height: auto;
+        margin-top: 330px;
+        display: block;
+      }
+    }
+  }
+}

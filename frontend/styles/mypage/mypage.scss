@@ -1,0 +1,213 @@
+.mypage-contents {
+  //   background: pink;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+  .mypage_folder {
+    // background: blue;
+    width: 25%;
+    height: 100%;
+    font-size: 1rem;
+
+    ul {
+      list-style: none;
+      //   background: skyblue;
+      height: 10vh;
+      padding: 0;
+      margin-top: 15vh;
+      li {
+        height: 70%;
+        // background: pink;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: rgba(74, 71, 121, 0.4);
+
+        icon {
+          width: 13%;
+          //   background: red;
+          text-align: center;
+        }
+      }
+      li:hover {
+        background: rgba(22, 22, 34, 0.4);
+        cursor: pointer;
+      }
+    }
+  }
+  .mypage_strategyList {
+    // background: red;
+    width: 25%;
+    background: rgba(74, 71, 121, 0.4);
+    height: 100%;
+
+    div {
+      width: calc(100% - 4vw);
+      height: 4vh;
+      padding: 2vw;
+      font-size: 0.8rem;
+    }
+    ol {
+      list-style: none;
+      height: auto;
+      padding: 0;
+      margin: 0;
+
+      li {
+        height: 7.5vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        font-size: 1rem;
+        div {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+        }
+
+        .mypage_stategyList_strategyName {
+          padding: 0 0 0 1vw;
+          font-size: 1rem;
+
+          text-align: left;
+          height: 100%;
+          width: 60%;
+        }
+        .mypage_stategyList_strategyPercentage {
+          padding: 0;
+          width: 10%;
+          height: 100%;
+          text-align: right;
+          font-size: 1rem;
+        }
+        .mypage_stategyList_toggleButton {
+          padding: 0;
+          width: 30%;
+          height: 100%;
+          text-align: right;
+          padding: 0 1vw 0 0;
+        }
+      }
+      li:hover {
+        background: rgba(22, 22, 34, 0.4);
+        cursor: pointer;
+      }
+    }
+  }
+  .mypage_strategyDetail {
+    // background: rgb(51, 51, 24);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    margin: 4vh 6vh 4vh 6vh;
+
+    article:nth-child(1) {
+      flex-grow: 2;
+      //   background: rgba(74, 71, 121, 0.4);
+
+      header {
+        font-size: 2rem;
+        padding-bottom: 1vh;
+      }
+      p {
+        font-size: 0.8rem;
+      }
+    }
+    article:nth-child(2) {
+      flex-grow: 5;
+      //   background: rgba(74, 71, 121, 0.4);
+      font-size: 0.9rem;
+      display: flex;
+      flex-direction: column;
+
+      header {
+        width: calc(100% - 2vh);
+        height: 4vh;
+        background: rgba(74, 71, 121, 0.4);
+        padding-left: 2vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 2vh;
+
+        li {
+          height: 3vh;
+          width: calc(100% - 4vw);
+          margin-left: 2vh;
+        }
+      }
+    }
+    article:nth-child(3) {
+      flex-grow: 5;
+      //   background: rgba(74, 71, 121, 0.4);
+      font-size: 0.9rem;
+      display: flex;
+      flex-direction: column;
+
+      header {
+        width: calc(100% - 2vh);
+        height: 4vh;
+        background: rgba(74, 71, 121, 0.4);
+        padding-left: 2vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      table {
+        margin-top: 2vh;
+        // background: black;
+        border-collapse: collapse;
+
+        td {
+          border-bottom: solid 0.5px rgb(67, 64, 87);
+          height: 4vh;
+        }
+        td:nth-child(1) {
+          padding-left: 2vh;
+          text-align: left;
+          border-right: solid 0.5px rgb(67, 64, 87);
+        }
+        td:nth-child(2) {
+          text-align: right;
+          padding-right: 2vh;
+        }
+      }
+    }
+    article:nth-child(4) {
+      flex-grow: 6;
+      //   background: red;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+
+      button {
+        height: 5vh;
+        min-width: 6vw;
+        border: none;
+        border-radius: 12px;
+        background: rgba(74, 71, 121, 0.4);
+        margin-right: 3vh;
+        color: white;
+      }
+      div {
+        height: 5vh;
+        width: 5vh;
+        background: rgba(74, 71, 121, 0.4);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 0.6em;
+      }
+    }
+  }
+}

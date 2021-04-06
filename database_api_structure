@@ -1,0 +1,21 @@
+User{
+	username: 유저이름
+	password: 비밀번호
+	registered_dttm: 등록일자
+}
+
+Stretagy{
+	<—init—>
+	stret_name: 전략명
+	# street_num: 전략고유번호 => 난수발생모듈
+	user_name: 유저이름
+	
+	<— parameters —>
+	<tab1>
+	ivm_s, ivm_e    >  투자원금  ivm_s 이상 ivm_e 이하
+	ivm_dttm_s, ivm_dttm_e   >  투자기간  >
+	<tab2>
+	<tab3>
+	<tab4>
+	 f
+}

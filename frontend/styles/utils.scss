@@ -1,0 +1,50 @@
+// 폰트
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+@import url(http://fonts.googleapis.com/earlyaccess/amstelvaralpha.css);
+
+// 전체화면 설정
+body {
+  margin: 0;
+  width: 100vw;
+  background-image: url(../static/img/backgroundImg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 10px; // rem을 사2222222용하기 위해서 root font size를 설정
+}
+
+// scroll바
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.filterForm-filter-section::-webkit-scrollbar-thumb,
+.strategy-card-box::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: gray;
+}
+
+body .index::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: rgb(8, 5, 5);
+  height: 50px;
+  width: 50px;
+}
+
+.index::-webkit-scrollbar-button,
+.filterForm-filter-section::-webkit-scrollbar-button,
+.strategy-card-box::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+
+//input 화살표없애기
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

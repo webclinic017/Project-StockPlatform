@@ -1,0 +1,71 @@
+.community-contents {
+  width: 100%;
+  height: calc(100% - 5vh);
+  // background: pink;
+  margin-bottom: 5vh;
+
+  .strategy-banner {
+    width: calc(90% - 4vh);
+    height: 25vh;
+    background-image: url(../../static/img/communitypage_banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 2vh 8vh 12vh;
+  }
+
+  .strategy-card-box {
+    // background: rgb(194, 194, 145);
+    width: 100%;
+    height: calc(100% - 30vh);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: inline-flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    justify-content: center;
+
+    // 카드 안
+    .strategy-card {
+      background: rgba(255, 255, 255, 0.05);
+      width: 16vw;
+      height: 17vw;
+      text-align: center;
+      margin: 2vh;
+      padding: 3vh;
+
+      .card-content-strategyname {
+        font-size: 1.3rem;
+        font-family: "Roboto Mono", monospace;
+        margin-bottom: 0.5vw;
+      }
+      .card-content-name {
+        font-size: 0.8rem;
+        margin-bottom: 2.8vw;
+        // font-family: "NotoSan";
+      }
+      .card-content-detail {
+        // height: 4vh;
+        font-size: 0.7rem;
+        margin-bottom: 2.7vw;
+        text-overflow: ellipsis;
+        // background: black;
+        overflow: hidden;
+
+        line-height: 1.2;
+        text-align: left;
+        word-wrap: break-word;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+      }
+
+      .card-content-percent {
+        margin-bottom: 0.8vw;
+        font-size: 1rem;
+      }
+    }
+  }
+  .strategy-card:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
