@@ -30,5 +30,3 @@
 ## Data flow(Detail)
 ![intro page3](https://github.com/Seungyeup/Project-StockPlatform/blob/master/imgs/%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD3.png?raw=true)
 
-## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
